@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>location</title>
+    <link rel="icon" href="image/logo.svg"><!--icon image-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css" integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="location.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <section id="container">
+    <!-- Header -->
+    <header>
+        <section id="header">
+            <div id="logo">
+                <a href="index.html"><img src="image/logo.svg" alt="logo"></a>
+            </div>
+            <div id="navbar">
+                <nav>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="programs.html">Programs</a></li>
+                        <li><a href="camps.html">Camps</a></li>
+                        <li><a href="location.html">Locations</a></li>
+                        <li><a href="request_info.html"><button style="background-color: orange;font-size: 20px;border-radius: 10px;">Request Info</button></a></li>
+
+                    </ul>
+                </nav>    
+            </div>
+            <div id="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+            
+                
+            
+        </section>
+    </header> <!--end of header-->
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <h4 style="color: rgb(147, 147, 249);">15 Centers Throughout New York</h4>
+            <h1 style="text-align:center;">Find Your Location</h1>
+    
+        <div class="map-container">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3023.123456789!2d-74.0060!3d40.7128!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0x0!2sNew+York!5e0!3m2!1sen!2sus!4v1234567890"
+                allowfullscreen=""
+                loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+        </div>
+            <h2 style="text-align:center;">Come on in. You will love what you see.</h2>
+            <p>Explore Where Fun Meets Learning: Discover the location nearest to you in the heart of New York, celebrated for its imaginative classes, dynamic day camps, playful spaces, unforgettable birthday parties, and extraordinary events.</p>
+        
+        <button class="btn">Manhattan</button>
+        <button class="btn">Brooklyn</button>
+        <button class="btn">Long Island City</button>
+        </div>
+    </section>
+
+    <!-- Locations Section -->
+    <section class="locations">
+        <div class="container">
+            <div class="location-grid">
+                <div class="location-card">
+                    <h3>22nd Street</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>38 E 22nd St, New York, NY 10010</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>  917-525-4559</p>
+                    <button>Learn More</button>
+                </div>
+                
+                <div class="location-card">
+                    <h3>E 67th Street</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>219 E 67th St, New York, NY 10065</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>  917-525-4559</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="location-card">
+                    <h3>W 68th Street</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>168 Amsterdam Ave, New York, NY 10023</p>
+                    <p><i class="fa-solid fa-phone-volume"></i></i>  917-525-4559</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="location-card">
+                    <h3>E 94th Street</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>345 E 94th St, New York, NY 10128</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>  917-525-4559</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="location-card">
+                    <h3>Greenwich Village</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>11 5th Ave, New York, NY 10003</p>
+                    <p><i class="fa-solid fa-phone-volume"></i></i>  917-525-4559</p>
+                    <button>Learn More</button>
+                </div>
+                <div class="location-card">
+                    <h3>Sutton Place</h3>
+                    <p><i class="fa-solid fa-location-dot"></i>401 E 55th St, New York, NY 10022</p>
+                    <p><i class="fa-solid fa-phone-volume"></i>  917-525-4559</p>
+                    <button>Learn More</button>
+                </div>
+                <!-- Add more cards as needed -->
+            </div>
+        </div>
+    </section>
+<!-- form section -->
+    <section class="news-section">
+    <div class="news-container">
+
+        <!-- LEFT SIDE IMAGE -->
+        <div class="news-image">
+            <img src="image/location.webp" alt="kid">
+        </div>
+
+        <!-- RIGHT SIDE CONTENT -->
+        <div class="news-content">
+            <h2>Get the Latest  <br>News!</h2>
+            <p>Subscribe to receive updates on upcoming activities.</p>
+
+            <form class="news-form">
+
+                <!-- EMAIL -->
+                <label style="align-items: start;">Enter Your Email Address<span>*</span></label>
+                <input type="email">
+
+                <!-- PHONE -->
+                <label><br>Phone number</label>
+                <small>Enter a 10-digit phone number, including area <br></small>
+
+                <div class="phone-flex">
+                    <select style="width: 20%;">
+                        <option>India</option>
+                        <option>USA</option>
+                        <option>UK</option>
+                    </select>
+
+                    <input type="text" placeholder="+91">
+                </div>
+
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+
+    </div>
+</section>
+
+
+    <!-- Footer -->
+    <footer>
+            <section id="footer">
+            <div id="footer-logo">
+                <a href="index.html"><img src="image/logo.svg" alt="footer-logo"></a>
+                <p>Unique classes, adventurous camps, outrageous birthday celebrations. We have got fun covered.</p>
+            </div>
+    <!--footer middle section-->
+        <div id="middle">
+            <div class="column">
+                <h4>Programs</h4>
+                <ul>
+                    <li>Classes</li>
+                    <li>Preschool</li>
+                    <li>Afterschool</li>
+                    <li>Camps</li>
+                    <li>Playplace</li>
+                    <li>ummer Camp</li>
+                </ul>
+            </div>
+            <div class="column">
+                <h4>About Us</h4>
+                <ul>
+                    <li>Our Story</li>
+                    <li>Terms & Policies</li>
+                    <li>FAQ</li>
+                    <li>Testimonials</li>
+                    <li>Calendar</li>
+                </ul>
+
+            </div>
+        
+            <div class="column">
+                <h4>Contact Us</h4>
+                <ul>
+                    <li>Email Sign Up</li>
+                    <li>Careers</li>
+                </ul>
+
+            </div>
+        </div>    
+            <br>
+            
+            <div id="copy">
+                <p>Copyright NY Kids Club 2025, All Rights Reserved | <a href="privacy.html">Privacy Policy</a></p>
+            </div>
+        
+        
+    </section>
+        </footer>
+    </section>
+</body>
+</html>

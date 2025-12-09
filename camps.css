@@ -1,0 +1,587 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#container {
+    width: 100%;
+    /* border: 1px solid red; */
+}
+
+#navbar {
+    display: none;
+}
+
+#header {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: end;
+}
+
+#logo {
+    width: 40%;
+    margin-right: auto;
+}
+
+#logo img {
+    width: 100%;
+}
+
+#menu {
+    height: 30px;
+    justify-content: end;
+    width: 30px;
+}
+
+#hero {
+    background-color: rgb(247, 153, 119);
+    border-top-left-radius: 80px;
+    border-bottom-right-radius: 90px;
+    height: 550px;
+    width: 100%;
+}
+
+#main {
+    text-align: center;
+    color: white;
+}
+
+#main h1 {
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+#main #p1 {
+    line-height: 1.7;
+    padding: 0px 23px;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+#main button {
+    width: 200px;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    color: grey;
+    margin-bottom: 20px;
+}
+
+#main p {
+    font-size: 17px;
+    line-height: 1.3;
+}
+
+#experiences {
+    margin: 20px;
+}
+
+.img {
+    width: 242px;
+    margin: 50px 20px;
+}
+
+.img img {
+    width: 100%;
+}
+
+.info {
+    margin: 20px;
+}
+
+.info h1 {
+    line-height: 1.1;
+    padding: 20px 0px;
+}
+
+.info p {
+    line-height: 1.3;
+    font-size: 19px;
+    color: rgb(129, 127, 127);
+}
+
+.camps {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin: 20px;
+}
+
+.camp {
+    display: block;
+    gap: 5px;
+}
+
+.camp i {
+    width: 40px;
+    height: 40px;
+    background-color: rgb(162, 144, 175);
+    border-radius: 50%;
+    font-size: 20px;
+    align-items: center;
+    justify-content: center;
+    display: inline-flex;
+}
+
+.camp span {
+    padding-left: 5px;
+    font-size: 17px;
+    align-items: center;
+}
+
+#button {
+    margin: 40px 20px;
+}
+
+.button1 {
+    padding: 30px 0px;
+}
+
+.button1 h1 {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.btn {
+    margin: 5px;
+    margin-left: 40px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(255, 255, 226);
+    border-radius: 5px;
+    border-color: white;
+    width: 200px;
+    height: auto;
+    font-size: 17px;
+}
+
+/* SIGNUP SECTION */
+#signup {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Fix color background curve */
+.color {
+    width: 100%;
+    background-color: beige;
+    border-bottom-left-radius: 40%;
+    border-bottom-right-radius: 40%;
+    padding: 40px 20px;    /* instead of fixed height */
+}
+#submit {
+    background-color: rgb(214, 39, 214);
+    width: 80px;
+    height: 30px;
+    border-radius: 20px;
+}
+
+/* Form stays centered */
+.signform {
+    max-width: 800px;
+    margin: auto;
+}
+
+/* Image always below form */
+.img1 {
+    width: 80%;
+    max-width: 400px;
+    margin: 40px auto 0 auto;
+    display: block;
+}
+.img1 img {
+    width: 100%;
+}
+input,select{
+    border-radius: 20px;
+    height: 30px;
+    width: 65%;
+}
+
+
+#footer {
+    margin: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 40px;
+    justify-content: space-between;
+    padding: 50px 10%;
+    text-align: left;
+}
+
+#footer-logo {
+    display: flex;
+    flex-direction: column;
+    /* stack vertically */
+    align-items: flex-start;
+    /* left align */
+    width: 100%;
+}
+
+#footer-logo img {
+    width: 140px;
+    display: block;
+}
+
+#footer-logo a img {
+    width: 140px;
+    margin-bottom: 10px;
+}
+
+#footer-logo p {
+    width: 100%;
+    max-width: 350px;
+    white-space: normal;
+    line-height: 1.7;
+    font-size: 15px;
+    margin-top: 10px;
+
+}
+
+#middle {
+    width: 100%;
+    max-width: 600px;
+    text-align: left;
+
+}
+
+.column {
+    /* padding: 10px; */
+    margin-bottom: 20px;
+    border-radius: 10px;
+    text-align: left;
+    line-height: 1.2;
+}
+
+.column ul {
+    list-style: none;
+}
+
+.column h4 {
+    text-align: left;
+    margin-bottom: 10px;
+}
+
+#copy {
+    text-align: center;
+}
+
+/*media query for tablet*/
+@media screen and (min-width: 768px) {
+    #logo {
+        width: 20%;
+    }
+
+    #menu {
+        height: 30px;
+    }
+
+    #hero {
+        border-top-left-radius: 20%;
+        border-bottom-right-radius: 20%;
+        height: 400px;
+        width: 100%;
+    }
+
+    #experiences {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+    }
+
+    /* Left Image */
+    #experiences .img {
+        margin-top: 50px;
+        padding-top: 70px;
+        width: 2500px;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    /* Right Side (text + icons stacked) */
+    #experiences .info,
+    #experiences .camps {
+        width: 80%;
+
+    }
+
+    /* Makes TEXT & ICONS act like ONE vertical block */
+    #experiences .info {
+        display: block;
+    }
+
+    #experiences .camps {
+        display: flex;
+        flex-direction: column;
+        /* ensures icons go under text */
+        gap: 15px;
+    }
+
+    /* Icon row */
+    .camp {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+    }
+
+    #button {
+        margin: 40px 20px;
+    }
+
+    .button1 {
+        padding: 30px 0px;
+    }
+
+    .button1 h1 {
+        text-align: center;
+        padding-bottom: 30px;
+    }
+
+    .btn {
+        display: block;
+        margin: 10px;
+        margin-left: 200px;
+        border-radius: 7px;
+        border-color: white;
+        width: 300px;
+        height: auto;
+    }
+
+    /* ---------- FIXED TABLET FORM LAYOUT ---------- */
+    .color{
+        background-color: beige;
+        border-bottom-left-radius: 40%;
+        border-bottom-right-radius: 40%;
+        height: auto;
+        padding-bottom: 200px; 
+    }
+
+    /* FORM WRAPPER */
+    .signform{
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 20px;
+    }
+
+    /* TURN FORM INTO TWO-COLUMN GRID */
+    .form form{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+
+    /* REMOVE <br> in form on tablet */
+    .form form br{
+        display: none;
+    }
+
+    /* LABELS + INPUT PROPER DISPLAY */
+    .form form input,
+    .form form select{
+        width: 100%;
+        height: 45px;
+        border-radius: 15px;
+        padding: 12px 15px;
+        font-size: 16px;
+    }
+
+    /* Submit button full row */
+    #submit{
+        grid-column: span 2;
+        width: 140px;
+        height: 45px;
+        border-radius: 10px;
+        margin-top: 10px;
+    }
+    /* IMAGE BELOW FORM */
+    #signup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1{
+        order: 2 !important;
+        width: 80%;
+        margin: 50px auto 0 auto;
+        display: block;
+        position: relative;
+    }
+
+    .img1 img{
+        width: 100%;
+    }
+
+    /* --- FOOTER SECTION --- */
+    #footer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding: 40px;
+    }
+
+    #footer-logo {
+        width: 40%;
+        max-width: none;
+        align-items: flex-start;
+        margin-bottom: 30px;
+    }
+
+    #footer-logo p {
+
+        max-width: 760px;
+    }
+
+    #middle {
+
+        width: 45%;
+        max-width: none;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-evenly;
+    }
+
+    .column {
+        width: 28%;
+        padding: 10px 0;
+        margin-bottom: 20px;
+        line-height: 1.6;
+    }
+
+    .column h4 {
+        margin-bottom: 10px;
+        font-size: 1.1em;
+    }
+
+    #copy {
+        width: 100%;
+        text-align: center;
+        margin-top: 30px;
+        padding-top: 20px;
+        border-top: 1px solid #ccc;
+        display: block;
+    }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1440px) {
+    #container {
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    #header {
+        margin-top: 0px;
+        padding: 10px 0;
+    }
+
+    #header #logo {
+        padding-left: 10px;
+        width: 15%;
+    }
+
+    #menu {
+        display: none;
+    }
+
+    #navbar {
+        display: block;
+    }
+
+    #navbar ul {
+        display: flex;
+        list-style: none;
+        font-size: 20px;
+        text-align: left;
+        text-decoration: none;
+        padding: 0;
+    }
+
+    #navbar ul li {
+        margin-left: 30px;
+        margin-top: 20px;
+    }
+
+    #navbar ul li a {
+        text-decoration: none;
+    }
+
+    ul li #button {
+        background-color: #e9804b;
+        border: none;
+        border-color: none;
+        border-radius: 20px;
+
+    }
+/* experiance */
+    #experiences .img {
+        margin: auto;
+        width: 1200px;
+    }
+    .Rigth .info{
+        margin-top: 80px;
+    }
+
+    .img img {
+        width: 100%;
+    }
+
+    #button {
+        justify-content: center;
+        width: 100%;
+        font-size: large;
+        gap: 20px;
+    }
+
+    .btn {
+        justify-content: center;
+        width: 500px;
+        height: 50px;
+        margin: auto;
+    }
+
+    .img1 {
+        margin-left: 30%;
+        width: 40%;
+        position: relative;
+    }
+
+    .img1 img {
+        width: 100%;
+    }
+/* sign in section */
+    #signup{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .img1{
+        order: 2 !important;
+        width: 50%;
+        margin: 0px auto 0 auto;
+    }
+
+    .img1 img{
+        width: 100%;
+    }
+
+    /* Form stays 2-column grid */
+    .form form{
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px;
+    }
+
+    #submit{
+        grid-column: span 2;
+    }
+}
