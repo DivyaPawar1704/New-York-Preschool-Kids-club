@@ -530,7 +530,7 @@ iframe
     }
 }
 /* ========================= DESKTOP VIEW ========================= */
-@media screen and (min-width: 1024px) and (max-width: 1440px){
+@media screen and (min-width: 1024px){
 
     #container {
         max-width: 1200px;
