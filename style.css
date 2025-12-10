@@ -721,7 +721,7 @@
 @media screen and (min-width: 1024px) {
 
     #container {
-        max-width: 1200px;
+        max-width: 100%;
         margin: 0 auto;
     }
 
@@ -807,6 +807,10 @@
     /* --- CARDS SECTION-- */
     #cards {
         padding: 25px 0;
+    }
+    .contant{
+        display: grid;
+        grid-template-columns: repeat(3,1fr);
     }
 
     /* Set cards for 3+ columns */
