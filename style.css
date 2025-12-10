@@ -730,8 +730,8 @@
     }
 
     #header #logo {
-        padding-left: 10px;
-        width: 20%;
+        padding-left: 0px;
+        width: 15%;
     }
 
     #menu {
@@ -806,6 +806,7 @@
 
     /* --- CARDS SECTION-- */
     #cards {
+        width: 100%;
         padding: 25px 0;
     }
     .contant{
